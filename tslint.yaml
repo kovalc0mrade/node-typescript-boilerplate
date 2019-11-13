@@ -1,0 +1,9 @@
+extends:
+  - tslint:recommended
+  - tslint-config-prettier
+  - tslint-plugin-prettier
+defaultSeverity: error
+rules:
+  object-literal-sort-keys: false
+  ordered-imports: false
+  interface-name: false
