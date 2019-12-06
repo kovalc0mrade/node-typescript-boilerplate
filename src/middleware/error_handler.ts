@@ -5,7 +5,7 @@ export const errorHandler = (
   error: Error,
   req: Request,
   res: Response,
-  next: NextFunction
+  next: NextFunction,
 ) => {
   // @ts-ignore
   res.status(error.statusCode || HttpStatus.INTERNAL_SERVER_ERROR);

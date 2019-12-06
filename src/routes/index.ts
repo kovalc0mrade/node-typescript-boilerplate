@@ -1,3 +1,3 @@
-import { main } from './main';
+import { baseRoute } from './base_route';
 
-export { main };
+export { baseRoute };

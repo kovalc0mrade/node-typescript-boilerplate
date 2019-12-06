@@ -4,7 +4,7 @@ import HttpStatus from 'http-status-codes';
 export const pageNotFound = (
   req: Request,
   res: Response,
-  next: NextFunction
+  next: NextFunction,
 ) => {
   const error = new Error('Page Not Found');
   // @ts-ignore

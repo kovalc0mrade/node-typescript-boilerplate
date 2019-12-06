@@ -1,4 +1,4 @@
-import { pageNotFound } from './pageNotFound';
-import { errorHandler } from './errorHandler';
+import { pageNotFound } from './page_not_found';
+import { errorHandler } from './error_handler';
 
 export { pageNotFound, errorHandler };
