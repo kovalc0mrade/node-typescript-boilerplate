@@ -24,6 +24,19 @@ What's included:
 - `test:watch` - interactive watch mode to automatically re-run tests,
 - `clean` - remove coverage data, Jest cache and transpiled files,
 
+## TSlint.json
+
+- [tslint-microsoft-contrib/recommended][tslint-microsoft-contrib] - a set of TSLint rules used on some Microsoft projects.
+- [tslint-config-prettier][prettier-config] - disables all conflicting rules that may cause conflicts between [TSLint][tslint] and [Prettier][prettier-link]
+- [tslint-plugin-prettier][prettier-plugin] - runs [Prettier][prettier-link] as a [TSLint][tslint] rule and reports differences as individual TSLint issues.
+- `promise-function-async` - requires any function or method that returns a promise to be marked async
+- `no-relative-imports` - imported module should not be loaded from a relative path
+- `export-name` - the exported module or identifier name must match the file name
+- `no-void-expression` - requires expressions of type void to appear in statement position
+- `prettier` - consider prettier as code formatter
+
+## TSConfig.json
+
 [ts-badge]: https://img.shields.io/badge/TypeScript-3.7-blue.svg
 [nodejs-badge]: https://img.shields.io/badge/Node.js-12.13-blue.svg
 [nodejs]: https://nodejs.org/dist/latest-v12.x/docs/api/
@@ -33,3 +46,6 @@ What's included:
 [tslint]: https://palantir.github.io/tslint/
 [tslint-microsoft-contrib]: https://github.com/Microsoft/tslint-microsoft-contrib
 [prettier]: https://prettier.io
+[prettier-link]: https://github.com/prettier/prettier
+[prettier-config]: https://github.com/prettier/tslint-config-prettier
+[prettier-plugin]: https://github.com/prettier/tslint-plugin-prettier
